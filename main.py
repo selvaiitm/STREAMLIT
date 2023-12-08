@@ -37,21 +37,21 @@ def largest(a,b,c):
             return b
         return c
 
-a = number_input('Enter the first digit:')
-b = number_input('Enter the second digit:')
-c = number_input('Enter the third digit:')
+a = st.number_input('Enter the first digit:')
+b = st.number_input('Enter the second digit:')
+c = st.number_input('Enter the third digit:')
 
 larger = largest(a,b,c)
 
 st.write(f' Among the given numbers {a} , {b} and {c}')
 
-st.bar(a,b,c)
+st.bar_chart(a,b,c)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
 st.write(f" {larger} is the largest number")
 
-st.bar(larger)
+st.bar_chart(larger)
 
 
 
