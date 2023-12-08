@@ -54,7 +54,10 @@ a = st.number_input(" ")  # Using an empty string as label
 st.markdown(""" <h5 align = "center">Enter the second digit:</h5>""", unsafe_allow_html=True)
 b = st.number_input('')
 # b = st.number_input('Enter the second digit:')
-c = st.number_input('Enter the third digit:')
+# c = st.number_input('Enter the third digit:')
+
+st.markdown(""" <h5 align = "center">Enter the third digit:</h5>""", unsafe_allow_html=True)
+c = st.number_input('')
 
 larger = largest(a,b,c)
 
