@@ -45,6 +45,11 @@ larger = largest(a,b,c)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
+text = f' Among the given numbers {a} , {b} and {c}'
+
+st.markdown("""
+<h3 align="center">{text}
+""", unsafe_allow_html=True)
 st.write(f' Among the given numbers {a} , {b} and {c}')
 
 data = []
