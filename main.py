@@ -37,7 +37,11 @@ def largest(a,b,c):
             return b
         return c
 
-a = st.number_input('Enter the first digit:')
+# a = st.number_input(st.markdown("""<h5 align="center">Enter the first digit:""", unsafe_allow_html=True))
+
+st.markdown("<h5 style='text-align: center;'>Enter the first digit:</h5>", unsafe_allow_html=True)
+a = st.number_input(" ", step=1)  # Using an empty string as label
+
 b = st.number_input('Enter the second digit:')
 c = st.number_input('Enter the third digit:')
 
