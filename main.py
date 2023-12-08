@@ -50,7 +50,7 @@ text = f' Among the given numbers {a} , {b} and {c}'
 st.markdown(f"""
 <h3 align="center">{text}
 """, unsafe_allow_html=True)
-st.write(f' Among the given numbers {a} , {b} and {c}')
+# st.write(f' Among the given numbers {a} , {b} and {c}')
 
 data = []
 data.append(a)
@@ -62,7 +62,14 @@ st.bar_chart(data)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
-st.write(f" {larger} is the largest number")
+text2 = f" {larger} is the largest number"
+
+st.markdown(f"""
+<h3 align="center">{text2}
+""", unsafe_allow_html=True)
+
+
+# st.write(f" {larger} is the largest number")
 
 large = []
 large.append(larger)
