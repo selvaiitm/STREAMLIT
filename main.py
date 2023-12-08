@@ -59,9 +59,10 @@ st.markdown("<hr>", unsafe_allow_html=True)
 
 st.write(f" {larger} is the largest number")
 
-larger=list(larger)
+large = []
+lrger.append(larger)
 
-st.bar_chart(larger)
+st.bar_chart(large)
 
 
 
