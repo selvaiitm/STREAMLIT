@@ -43,10 +43,14 @@ st.markdown("<h5 style='text-align: center;'>Enter the first digit:</h5>", unsaf
 a = st.number_input(" ")  # Using an empty string as label
 
 st.markdown("<h5 style='text-align: center;'>Enter the second digit:</h5>", unsafe_allow_html=True)
-b = st.number_input()
+b = st.number_input(" ")
+# b = st.number_input()
 
 st.markdown("<h5 style='text-align: center;'>Enter the third digit:</h5>", unsafe_allow_html=True)
-c = st.number_input()
+c = st.number_input(" ")
+
+# c = st.number_input()
+
 
 # b = st.number_input('Enter the second digit:')
 # c = st.number_input('Enter the third digit:')
