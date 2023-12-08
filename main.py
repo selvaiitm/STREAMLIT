@@ -46,8 +46,8 @@ a = st.number_input(" ")  # Using an empty string as label
 # b = st.number_input(" ")
 # b = st.number_input()
 
-st.markdown("<h5 style='text-align: center;'>Enter the third digit:</h5>", unsafe_allow_html=True)
-c = st.number_input(" ")
+# st.markdown("<h5 style='text-align: center;'>Enter the third digit:</h5>", unsafe_allow_html=True)
+# c = st.number_input(" ")
 
 # c = st.number_input()
 
