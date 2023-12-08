@@ -43,6 +43,8 @@ c = st.number_input('Enter the third digit:')
 
 larger = largest(a,b,c)
 
+st.markdown("<hr>", unsafe_allow_html=True)
+
 st.write(f' Among the given numbers {a} , {b} and {c}')
 
 data = []
@@ -57,7 +59,7 @@ st.markdown("<hr>", unsafe_allow_html=True)
 
 st.write(f" {larger} is the largest number")
 
-st.bar_chart(larger)
+st.bar_chart(list(larger))
 
 
 
