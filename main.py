@@ -39,7 +39,7 @@ def largest(a,b,c):
 
 # a = st.number_input(st.markdown("""<h5 align="center">Enter the first digit:""", unsafe_allow_html=True))
 
-st.markdown("<h5 style='text-align: center;'>Enter the first digit:</h5>", unsafe_allow_html=True)
+st.markdown(""" <h5 align = "center">Enter the first digit:</h5>""", unsafe_allow_html=True)
 a = st.number_input(" ")  # Using an empty string as label
 
 # st.markdown("<h5 style='text-align: center;'>Enter the second digit:</h5>", unsafe_allow_html=True)
