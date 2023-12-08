@@ -47,7 +47,7 @@ st.markdown("<hr>", unsafe_allow_html=True)
 
 text = f' Among the given numbers {a} , {b} and {c}'
 
-st.markdown("""
+st.markdown(f"""
 <h3 align="center">{text}
 """, unsafe_allow_html=True)
 st.write(f' Among the given numbers {a} , {b} and {c}')
