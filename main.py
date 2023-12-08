@@ -62,7 +62,7 @@ st.bar_chart(data)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
-text2 = f" {larger} is the largest number"
+text2 = f'{larger} is the largest number'
 
 st.markdown(f"""
 <h3 align="center">{text2}
