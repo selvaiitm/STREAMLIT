@@ -45,7 +45,13 @@ larger = largest(a,b,c)
 
 st.write(f' Among the given numbers {a} , {b} and {c}')
 
-st.bar_chart(a,b,c)
+data = []
+data.append(a)
+data.append(b)
+data.append(c)
+
+
+st.bar_chart(data)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
